@@ -1,0 +1,7 @@
+{
+  "name": "OrderPlaced",
+  "properties": {
+    "customer_id": {"type": "string"},
+    "total": {"type": "number"}
+  }
+}

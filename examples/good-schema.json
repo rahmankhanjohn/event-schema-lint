@@ -1,0 +1,15 @@
+{
+  "name": "order.placed",
+  "version": "1.0.0",
+  "description": "An order was placed by a customer",
+  "properties": {
+    "event_id": {"type": "string"},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "source": {"type": "string"},
+    "type": {"type": "string", "const": "order.placed"},
+    "idempotency_key": {"type": "string"},
+    "customer_id": {"type": "string"},
+    "total": {"type": "number"}
+  },
+  "required": ["event_id", "timestamp", "source", "type"]
+}
