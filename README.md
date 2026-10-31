@@ -2,6 +2,7 @@
 
 ![Tests](https://github.com/rahmankhanjohn/event-schema-lint/actions/workflows/test.yml/badge.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/rahmankhanjohn/badge.svg)
 ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Dependencies: 0](https://img.shields.io/badge/dependencies-0-brightgreen.svg)
 ![Tests: 9](https://img.shields.io/badge/tests-9%20passing-brightgreen.svg)
@@ -40,6 +41,10 @@ python event_schema_lint.py /path/to/schemas --json
 - 0: no errors
 - 1: errors found
 - 2: bad path
+
+## Recognition
+
+Indexed on the [XERJ Corpus Hub](https://hub.xerj.org/contributors/rahmankhanjohn) - the open reference memory AI coding agents search before they write code.
 
 ## Requirements
 
